@@ -13,21 +13,54 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\자료구조">
+      <UniqueIdentifier>{97182e4b-01fc-49ab-9376-49a781c32a9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\강의">
+      <UniqueIdentifier>{b6d785d4-99d5-47e4-a061-fffa22b73155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\자료구조">
+      <UniqueIdentifier>{0f8b3b97-25f5-4d0a-a3f5-a00273036007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\강의">
+      <UniqueIdentifier>{3ff8c672-4f45-4d6d-94e5-a881fd86c7bb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="OT.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="LinkedList.cpp">
+      <Filter>소스 파일\자료구조</Filter>
     </ClCompile>
     <ClCompile Include="Complexity.cpp">
+      <Filter>소스 파일\자료구조</Filter>
+    </ClCompile>
+    <ClCompile Include="lecture2.cpp">
+      <Filter>소스 파일\자료구조</Filter>
+    </ClCompile>
+    <ClCompile Include="OT.cpp">
+      <Filter>소스 파일\자료구조</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleLikedList.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="lecture3.cpp">
+      <Filter>소스 파일\강의</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="lectures.h">
+      <Filter>헤더 파일\강의</Filter>
+    </ClInclude>
     <ClInclude Include="Complexity.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>헤더 파일\자료구조</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>헤더 파일\자료구조</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleLikedList.h">
+      <Filter>헤더 파일\자료구조</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

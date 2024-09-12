@@ -12,4 +12,4 @@
 
 void Print();
 
-void lecture1();
+void lecture1(); 
