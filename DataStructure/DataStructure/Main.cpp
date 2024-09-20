@@ -3,6 +3,7 @@
 #include "Complexity.h"
 #include "LinkedList.h"
 #include "lectures.h"
+#include "GameRoom.h"
 
 int main()
 {
@@ -15,5 +16,7 @@ int main()
 	//lecture2();
 	//lecture3();
 	//lecture4();
-	lecture5();
+	//lecture5();
+
+	IGameRoomExample();
 }

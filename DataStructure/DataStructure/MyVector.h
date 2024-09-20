@@ -106,6 +106,8 @@ public:
 	int GetSize() { return size; } // 현재 vec의 원소 갯수를 리턴하는 함수
 
 	// 도전과제
+	// 
 	// 로비 시스템, Room - Player, Add, Remove 유저가 방에 들어갔다 나왔다.
+	// 
 	// Player - Inventory - Item system
 };
