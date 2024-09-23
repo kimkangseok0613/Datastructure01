@@ -4,6 +4,8 @@
 #include "LinkedList.h"
 #include "lectures.h"
 #include "GameRoom.h"
+#include "MyStack.h"
+#include "GameHistory.h"
 
 int main()
 {
@@ -18,5 +20,8 @@ int main()
 	//lecture4();
 	//lecture5();
 
-	IGameRoomExample();
+	//IGameRoomExample();
+
+	StackExample();
+	iGameHistoryExample();
 }
